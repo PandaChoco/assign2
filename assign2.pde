@@ -1,6 +1,7 @@
 boolean goup,godown,goright,goleft=false;
 PImage bg1,bg2,end1,end2,enemy,fighter,hp,enemy1,gainbomb,start1,start2,treasure;
-int x,y,mx,my,ex,ey,i =0;
+int mx,my,ex,ey,i =0;
+int x,y;
 final int Game_start=1,Game_win=2,Game_lose=3,Game_run=4;
 int gameState;
 float life=0;
@@ -15,8 +16,8 @@ void setup () {
   
   size(640, 480) ;
   
-  x=(width-50);
-  y=(height/2-25);
+  x=(640-50);
+  y=(240-25);
   
   bg1 = loadImage("img/bg1.png");
   bg2 = loadImage("img/bg2.png");
