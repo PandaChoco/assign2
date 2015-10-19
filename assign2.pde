@@ -10,12 +10,14 @@ int exspeed=5;
 float eyspeed=2.5;
 
 void setup () {
-  x=(width-50);
-  y=(height/2-25);
   
   life = 195*0.2;
   
   size(640, 480) ;
+  
+  x=(width-50);
+  y=(height/2-25);
+  
   bg1 = loadImage("img/bg1.png");
   bg2 = loadImage("img/bg2.png");
   enemy = loadImage("img/enemy.png");
