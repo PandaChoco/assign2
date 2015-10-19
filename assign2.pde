@@ -10,10 +10,8 @@ int exspeed=5;
 float eyspeed=2.5;
 
 void setup () {
-  x=width-50;
-  y=height/2-25;
-  //x=floor(random(590));
-  //y=floor(random(440));
+  x=(width-50);
+  y=(height/2-25);
   
   life = 195*0.2;
   
@@ -137,8 +135,8 @@ void draw() {
             image(end2,0,0);
           }
           life = 195*0.2;
-          x=width-50;
-          y=height/2-25;
+          x=(width-50);
+          y=(height/2-25);
           
           break;
   }
