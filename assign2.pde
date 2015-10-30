@@ -132,7 +132,7 @@ void draw() {
           if ((mouseX>=208)&(mouseX<=433)&(mouseY>=310)&(mouseY<=345)){
               image(end1,-0.5,0);
               if (mousePressed){
-                  gameState=Game_start;
+                  gameState=Game_run;
               }
           }else{
             image(end2,0,0);
